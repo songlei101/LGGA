@@ -1,0 +1,15 @@
+{
+  "batch_size": 64,
+  "node_in_feats": 39,
+  "edge_in_feats": 29,
+  "graph_hidden_feats": 64,
+  "node_out_feats": 64,
+  "num_step_message_passing": 4,
+  "num_layer_set2set": 3,
+  "num_step_set2set": 3,
+  "graph_feats": 128,
+  "n_tasks": 12,
+  "patience": 10,
+  "lr": 0.0009,
+  "weight_decay": 0.0002
+}
