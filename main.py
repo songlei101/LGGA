@@ -171,13 +171,13 @@ if __name__ == '__main__':
                         help='Dataset')
     parser.add_argument('--pretrain', default=True,
                         help='Whether to load the pre-trained model (default: True)')
-    parser.add_argument('--load_saved', default=True,
+    parser.add_argument('--load_saved', default=False,
                         help='Whether to load the saved model (default: False)')
     parser.add_argument('--save_model', default=False,
                         help='Whether to save the model (default: False)')
     parser.add_argument('--num_epochs', type=int, default=300,
                         help='Maximum number of epochs for training(default: 300)')
-    parser.add_argument('--split', choices=['scaffold', 'random'], default='scaffold', help="random or scaffold")
+    parser.add_argument('--split', choices=['scaffold', 'random'], default='scaffold', help="random or scaffold split")
 
     args = parser.parse_args().__dict__
     if torch.cuda.is_available():
