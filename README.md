@@ -2,7 +2,7 @@
 -LGGA-
 ## Introduction
 This is the source code and dataset for the following paper: 
-**LGGA: Local Geometry-guided Graph Attention for molecular property prediction**
+**LGGA-MPP: Local Geometry-guided Graph Attention for molecular property prediction**
 
 ## **Environment**
   - deepchem                  2.6.1
